@@ -1,0 +1,106 @@
+:root {
+    --light_grey: rgb(153, 151, 151);
+    --dark_grey: rgb(99, 95, 95);
+    --light_green: rgb(134, 224, 134);
+}
+
+body {
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    text-align: center;
+    padding: 30px;
+    height: 10%;
+    background-color: var(--light_grey);
+    top: 0;
+}
+
+p {
+    text-indent: 2rem;
+}
+
+form {
+    display: grid;
+    float: left;
+    width: 30%;
+}
+
+button {
+    background-color: var(--light_green);
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#menu li:hover {
+    background-color: var(--dark_grey);
+    border-radius: 30px;
+}
+
+#presentation {
+    float: left;
+    text-align: center;
+    width: 28%;
+    margin-top: 30px;
+}
+
+#author-img {
+    width: 50%;
+    border-radius: 100%;
+    border: 5px solid var(--light_grey);
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin: 15px;
+}
+
+.title-section {
+    margin-bottom: 5px;
+}
+
+#container {
+    float: right;
+    text-align: justify;
+    width: 70%;
+    margin-top: 30px;
+    margin-right: 2%;
+}
+
+input[type='text'], input[type='email'], textarea{
+    color: black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#talk-with-me aside {
+    float: right;
+    width: 60%;
+}
